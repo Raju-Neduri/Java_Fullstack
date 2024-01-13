@@ -1,4 +1,4 @@
-//write a program to take input of the array elements and check the minimum and maximum
+//write a program to take input of the array elements and check the minimum and maximum from the array elements
 package class_11_01_Array;
 
 import java.util.Scanner;
