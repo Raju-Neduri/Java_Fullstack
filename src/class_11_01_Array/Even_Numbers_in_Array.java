@@ -1,4 +1,4 @@
-// 
+// Check for Even Numbers
 package class_11_01_Array;
 
 import java.util.Scanner;
