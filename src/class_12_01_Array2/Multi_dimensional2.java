@@ -15,7 +15,7 @@ public class Multi_dimensional2 {
 
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < col; j++) {
-				System.out.println("enter the value of row " + i + " column " + j + ":");
+				System.out.println("Enter the value of row " + i + " column " + j + ":");
 				a[i][j] = sc.nextInt();
 			}
 		}
