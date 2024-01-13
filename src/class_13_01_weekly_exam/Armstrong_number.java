@@ -1,9 +1,11 @@
-package class_10_01_logicalProblems;
+// 3 write a program to check given number is armstrong or not
+package class_13_01_weekly_exam;
 
 import java.util.Scanner;
 
-public class Amstrong_Number {
-	public static void main(String args[]) {
+public class Armstrong_number {
+
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the numbers");
 		int num = sc.nextInt();
@@ -17,8 +19,7 @@ public class Amstrong_Number {
 		num = input;
 		while (num != 0) {
 			digit = num % 10;
-			num1 = digit ^ count + num1;
-			// num1=(Math.pow(digit,count)+num1
+			num1 += Math.pow(digit, count);
 			num = num / 10;
 		}
 		if (input == num1) {
@@ -26,5 +27,7 @@ public class Amstrong_Number {
 		} else {
 			System.out.println(input + " is not a armstrong number");
 		}
+
 	}
+
 }
