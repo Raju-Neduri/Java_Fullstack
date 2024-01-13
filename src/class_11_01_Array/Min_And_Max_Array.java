@@ -24,6 +24,7 @@ public class Min_And_Max_Array {
 				min = num[i];
 			} else if (num.length > max) {
 				max = num[i];
+
 			}
 		}
 		System.out.println();
