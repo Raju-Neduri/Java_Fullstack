@@ -8,14 +8,23 @@ public class Sum_Of_Array {
 		int i, j, sum = 0;
 		int a[] = new int[9];
 		Scanner sc = new Scanner(System.in);
+
+		// taking input
 		for (i = 0; i <= 8; i++) {
 			System.out.println("enter the value");
 			a[i] = sc.nextInt();
 		}
+
+		// printing order
+		for (i = 0; i <= 8; i++) {
+			System.out.print(a[i] + " ");
+		}
+
+		// code for addition
 		for (j = 0; j <= 8; j++) {
 			sum = sum + a[j];
 		}
-		System.out.println("Addition of all numbers =" + sum);
+		System.out.println("\nAddition of all numbers =" + sum);
 
 	}
 
