@@ -22,10 +22,9 @@ public class Reverse_Array {
 		for (int i = 0; i < size; i++) {
 			System.out.print(a[i] + " ");
 		}
-		System.out.println();
 
 		// printing the reverse order
-		System.out.println("Here is the reversee order of the array");
+		System.out.println("\nHere is the reversee order of the array");
 		for (int i = size - 1; i >= 0; i--) {
 			System.out.print(a[i] + " ");
 		}
