@@ -9,12 +9,18 @@ public class Odd_in_Array {
 		System.out.println("Enter the size of the array");
 		int n = sc.nextInt();
 		int count = 0;
+
 		// code for taking input from the user
 		int a[] = new int[n];
 		for (int i = 0; i < n; i++) {
 			System.out.println("Enter the value of the element " + i + ":");
 			a[i] = sc.nextInt();
 		}
+		System.out.println("The original order of array :");
+		for (int i = 0; i < n; i++) {
+			System.out.print(a[i] + " ");
+		}
+		System.out.println("\n");
 
 		// code to check code numbers in the array
 		for (int i = 0; i < n; i++) {
@@ -24,7 +30,7 @@ public class Odd_in_Array {
 				count++;
 			}
 		}
-		System.out.println("The count of odd numbers in the array are :" + count);
+		System.out.println("\nThe count of odd numbers in the array are :" + count);// count
 
 	}
 
