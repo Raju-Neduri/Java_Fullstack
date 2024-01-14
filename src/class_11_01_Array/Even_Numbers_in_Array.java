@@ -1,4 +1,4 @@
-// Check for Even Numbers
+// Check for Even Numbers in the array and count the even numbers in the array
 package class_11_01_Array;
 
 import java.util.Scanner;
