@@ -17,6 +17,7 @@ public class Addition_Of_natural {
 
 		}
 		System.out.println("Addition of n natural num :" + sum);
+		sc.close();
 	}
 
 }
