@@ -30,6 +30,7 @@ public class P7_SumOfPrime {
 			}
 		}
 		System.out.println("Sum of prime numbers from " + n1 + " to " + n2 + " =" + sum);
+		sc.close();
 	}
 
 }
