@@ -1,3 +1,4 @@
+//example
 package logical_Programs;
 
 import java.util.Scanner;
