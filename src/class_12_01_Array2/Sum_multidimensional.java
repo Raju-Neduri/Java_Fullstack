@@ -19,7 +19,7 @@ public class Sum_multidimensional {
 			}
 		}
 
-		// second matrix
+		// second matrix code
 		System.out.println("\nEnter the rows of 2nd matrix");
 		int rows2 = sc.nextInt();
 		System.out.println("Enter the columns of 2nd matrix");
