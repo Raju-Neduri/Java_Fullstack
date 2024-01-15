@@ -1,3 +1,4 @@
+//wap a program to find the sum of prime numbers from n to n
 package logical_Programs;
 
 import java.util.Scanner;
