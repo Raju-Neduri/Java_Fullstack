@@ -1,3 +1,4 @@
+//wap to display  multiplication of Tables
 package logical_Programs;
 
 import java.util.Scanner;
@@ -12,7 +13,7 @@ public class P9_MultiplicationOfTable {
 		for (i = 1; i <= n; i++) {
 			for (j = 1; j <= 10; j++) {
 				res = i * j;
-				System.out.println(i + "x" + j + "=" + res+"\t");
+				System.out.println(i + "x" + j + "=" + res + "\t");
 			}
 			System.out.println();
 		}
