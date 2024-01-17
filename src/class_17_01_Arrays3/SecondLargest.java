@@ -1,3 +1,4 @@
+//WAp to find the first and second largest numbers in the array without using sorting
 package class_17_01_Arrays3;
 
 import java.util.Scanner;
