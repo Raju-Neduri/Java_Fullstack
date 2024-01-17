@@ -9,31 +9,30 @@ public class LargestandSecondLargest {
 		System.out.println("Enter the size of the array");
 		int n = sc.nextInt();
 
-		int num[] = new int[n];
+		int a[] = new int[n];
 
-		for (int i = 0; i < n; i++) {
-			System.out.println("Enter element at index " + i + ":");
-			num[i] = sc.nextInt();
-
+		for (int k = 0; k < n; k++) {
+			System.out.println("Enter element at index " + k + ":");
+			a[k] = sc.nextInt();
 		}
-		int largest = num[0];
-		int secondLargest = num[0];
-		for (int i = 1; i < n; i++) {
-			if (num[i] > largest) {
-				largest = num[i];
-			}
-		}
+		int i, j;
 
-		for (int j = 1; j < n; j++) {
-			if (num[j] > secondLargest) {
-				if (secondLargest != largest) {
-					secondLargest = num[j];
+		for (i = 0; i < n; i++) {
+
+			for (j = i + 1; j < n; j++) {
+				int temp = 0;
+				if (a[i] > a[j]) {
+
+					temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
 				}
+
 			}
+			System.out.print(a[i] + " ");
 		}
 		System.out.println();
-		System.out.println("Largest: " + largest);
-		System.out.println("Second largest: " + secondLargest);
+		System.out.println(a[n - 1]);
 	}
 
 }
