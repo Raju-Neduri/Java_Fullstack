@@ -1,9 +1,8 @@
-//write a program to take input of the array elements and check the minimum and maximum from the array elements
-package class_11_01_Array;
+package class_17_01_Arrays3;
 
 import java.util.Scanner;
 
-public class Min_And_Max_Array {
+public class MinAndMaxArrayEx {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -19,11 +18,11 @@ public class Min_And_Max_Array {
 		}
 		int min = num[0];
 		int max = num[0];
-		for (int i = 1; i < num.length; i++) {
-			if (num[i] < min) {
-				min = num[i];
-			} else if (num[i] > max) {
+		for (int i = 1; i < n; i++) {
+			if (num[i] > max) {
 				max = num[i];
+			} else if (num[i] < min) {
+				min = num[i];
 
 			}
 		}
