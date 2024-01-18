@@ -29,6 +29,7 @@ public class MinAndMaxArrayEx {
 			}
 
 		}
+
 		// to print the min and max values
 		System.out.println();
 		System.out.println("Minimum: " + min);
