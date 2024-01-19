@@ -1,9 +1,8 @@
-
 package class_11_01_Array;
 
 import java.util.Scanner;
 
-public class DuplicateElement {
+public class Duplicate_frequency {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,12 +15,14 @@ public class DuplicateElement {
 			System.out.println("Enter element at index " + k + ":");
 			a[k] = sc.nextInt();
 		}
-		int i, j;
+		int i, j, frequency = 0;
 		boolean output = false;
 		for (i = 0; i < a.length; i++) {
 			for (j = i + 1; j < a.length; j++) {
 				if (a[i] == a[j]) {
-					System.out.println("Duplicate element is =" + a[i] + " at index " + i + " and " + j);
+					frequency++;
+					System.out.println("Duplicate element is " + a[i] + " at index " + i + " and " + j
+							+ " with frequency " + frequency);
 					output = true;
 				}
 
@@ -30,6 +31,7 @@ public class DuplicateElement {
 		if (output == false) {
 			System.out.println("Duplicate element not found");
 		}
+
 	}
 
 }
