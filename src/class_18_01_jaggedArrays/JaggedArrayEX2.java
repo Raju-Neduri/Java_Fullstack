@@ -1,4 +1,4 @@
-//Accepting values for jaggged array
+//Accepting values for jaggged array and printing the values of array
 package class_18_01_jaggedArrays;
 
 import java.util.Scanner;
@@ -16,13 +16,13 @@ public class JaggedArrayEX2 {
 
 		// code to take input from the user
 		for (int i = 0; i < a.length; i++) {
+			System.out.println(i + " row");
 			for (int j = 0; j < a[i].length; j++) {
 
 				System.out.println("Enter the value for  row " + i + " column " + j + " :");
 				a[i][j] = sc.nextInt();
 
 			}
-			System.out.println("next row");
 
 		}
 
