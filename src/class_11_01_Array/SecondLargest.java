@@ -20,10 +20,10 @@ public class SecondLargest {
 		for (i = 0; i < a.length; i++) {
 			for (j = i + 1; j < a.length; j++) {
 				int temp = 0;
-				if (a[i] < a[j]) {
-					temp = a[i];
-					a[i] = a[j];
-					a[j] = temp;
+				if (a[i] < a[j]) { // 82<393
+					temp = a[i];// temp=82
+					a[i] = a[j];// a[i]=1
+					a[j] = temp;// a[j]=1
 				}
 
 			}
