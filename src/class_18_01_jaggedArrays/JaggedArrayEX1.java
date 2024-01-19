@@ -5,6 +5,7 @@ public class JaggedArrayEX1 {
 	public static void main(String[] args) {
 		// Create a jagged array
 		int[][] jaggedArray = { { 1, 2, 3 }, { 4, 5 }, { 6, 7, 8, 9 } };
+		System.out.println(jaggedArray.length + "\n");
 
 		// Access and print elements of the jagged array
 		for (int i = 0; i < jaggedArray.length; i++) {
