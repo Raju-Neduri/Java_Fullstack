@@ -3,7 +3,7 @@ package class_19_01_string;
 public class String_Ex1 {
 
 	public static void main(String args[]) {
-		String s1 = "Raju";
+		String s1 = "Raju"; // string by using literals
 
 		char ch[] = { 'N', 'E', 'D', 'U', 'R', 'I' };
 		String s2 = new String(ch);

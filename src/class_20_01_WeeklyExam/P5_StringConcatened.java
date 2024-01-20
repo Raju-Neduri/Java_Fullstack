@@ -1,4 +1,4 @@
-//create a string,concat the same string display the concatenated string
+//Q5.create a string,concat the same string display the concatenated string
 package class_20_01_WeeklyExam;
 
 public class P5_StringConcatened {
