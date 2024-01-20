@@ -1,3 +1,4 @@
+// string example 1
 package class_19_01_string;
 
 public class String_Ex1 {
