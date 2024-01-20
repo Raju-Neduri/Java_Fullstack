@@ -11,11 +11,19 @@ public class P2_EqualityOfBothStrings {
 		String str3 = new String("Hello");
 		String str4 = new String("World");
 
-		boolean areLiteralsEqual = str1.equals(str2);
-		boolean areConstructorsEqual = str3.equals(str4);
+		if (str1 == str2) {
+			System.out.println("Equality of strings created using literals: True");
+		} else {
+			System.out.println("Equality of strings created using literals: false");
 
-		// Display results
-		System.out.println("Equality of strings created using literals: " + areLiteralsEqual);
-		System.out.println("Equality of strings created using constructors: " + areConstructorsEqual);
+		}
+
+		if (str3 == str4) {
+			System.out.println("Equality of strings created using constructors: True");
+		} else {
+			System.out.println("Equality of strings created using constructors: false");
+
+		}
+
 	}
 }
