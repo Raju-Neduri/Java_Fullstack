@@ -8,6 +8,7 @@ public class P3_Equals {
 	// 2 By Using == Operator
 	// 3 By compareTo() Method
 
+	// equals method compare the content inside the variable
 	public static void main(String args[]) {
 		String s1 = "Raju";
 		String s2 = "Raju";
