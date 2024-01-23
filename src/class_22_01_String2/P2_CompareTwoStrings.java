@@ -3,11 +3,17 @@
 // and contain the same characters in the same position
 package class_22_01_String2;
 
+import java.util.Scanner;
+
 public class P2_CompareTwoStrings {
 
 	public static void main(String[] args) {
-		String s1 = "Hello World";
-		String s2 = "Hello";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the first string");
+		String s1 = sc.next();
+
+		System.out.println("Enter the second string");
+		String s2 = sc.next();
 
 		boolean sameLength = s1.length() == s2.length(); // checking length
 
