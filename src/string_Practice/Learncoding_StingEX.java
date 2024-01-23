@@ -23,7 +23,8 @@ public class Learncoding_StingEX {
 		System.out.println("\nCharAt");
 		System.out.println(a.charAt(2));
 
-		System.out.println();
+		System.out.println(b.indexOf('u'));
+		System.out.println(b.replace('u', 'a'));
 
 	}
 
