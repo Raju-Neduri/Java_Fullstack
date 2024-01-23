@@ -8,6 +8,7 @@ public class String_ex4 {
 		char c = s.charAt(0);
 		System.out.println(c);
 		int length = s.length();
+		System.out.println(length);
 
 	}
 
