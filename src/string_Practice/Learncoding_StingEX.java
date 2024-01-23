@@ -13,10 +13,17 @@ public class Learncoding_StingEX {
 		System.out.println(b.length());// to find length
 
 		String c = "    Vaishu   ";
+		System.out.println("\nTrim");
 		System.out.println(c.trim());// to trim the extra spaces
 
 		String d = "";
+		System.out.println("\nisEmpty");
 		System.out.println(d.isEmpty()); // to find is it empty
+
+		System.out.println("\nCharAt");
+		System.out.println(a.charAt(2));
+
+		System.out.println();
 
 	}
 
