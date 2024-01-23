@@ -13,7 +13,16 @@ public class P3_CompareToIgnore {
 		System.out.println("Enter the second string");
 		String s2 = sc.next();
 
-		System.out.println(s1.compareToIgnoreCase(s2));
+		int result = s1.compareToIgnoreCase(s2);
+
+		// Oresult
+		if (result == 0) {
+			System.out.println("The strings are lexicographically equal (ignoring case).");
+		} else if (result < 0) {
+			System.out.println("The first string comes before the second string lexicographically (ignoring case).");
+		} else {
+			System.out.println("The second string comes before the first string lexicographically (ignoring case).");
+		}
 
 	}
 
