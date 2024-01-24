@@ -12,7 +12,8 @@ public class Reverse_String_23_01 {
 			s = s + str.charAt(i);
 
 		}
-		System.out.println(s);
+		System.out.println("original order = " + str);
+		System.out.println("Reversed Order = " + s);
 	}
 
 }
