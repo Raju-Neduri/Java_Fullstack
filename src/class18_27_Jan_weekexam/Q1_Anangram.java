@@ -10,13 +10,13 @@ public class Q1_Anangram {
 		String s1 = "Listen";
 		String s2 = "Silent";
 
-		s1 = s1.toLowerCase().replaceAll("\\s", "");
+		s1 = s1.toLowerCase().replaceAll("\\s", ""); // lowercase and spaces remove
 		s2 = s2.toLowerCase().replaceAll("\\s", "");
 
-		char[] charArray1 = s1.toCharArray();
+		char[] charArray1 = s1.toCharArray(); // dividing to characters
 		char[] charArray2 = s2.toCharArray();
 
-		Arrays.sort(charArray1);
+		Arrays.sort(charArray1); // to convert to ascending
 		Arrays.sort(charArray2);
 
 		if (Arrays.equals(charArray1, charArray2)) {
