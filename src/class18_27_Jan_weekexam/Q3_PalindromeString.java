@@ -10,14 +10,10 @@ public class Q3_PalindromeString {
 		System.out.println("Enter the string");
 		String s = sc.nextLine();
 
-		s = s.replaceAll("\\s", "").toLowerCase();
-
-		int length = s.length();
-		int mid = length / 2;
 		boolean isPalindrome = true;
 
-		for (int i = 0; i < mid; i++) {
-			if (s.charAt(i) != s.charAt(length - 1 - i)) {
+		for (int i = 0; i < s.length() / 2; i++) {
+			if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
 				isPalindrome = false;
 				break;
 			}
