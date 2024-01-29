@@ -28,9 +28,10 @@ public class Static_Method {
 		m.accept(1, "Shital", " ");
 		m.display();
 		m.show();
-		m.accept(2, "Raju", " ");
-		m.display();
-		m.show();
+
+		m1.accept(2, "Raju", " ");
+		m1.display();
+		m1.show();
 
 	}
 
