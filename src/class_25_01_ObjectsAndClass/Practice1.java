@@ -12,8 +12,9 @@ class Calculator {
 public class Practice1 {
 
 	public static void main(String[] args) {
+		int num1 = 6, num2 = 8;
 		Calculator calc = new Calculator();
-		int res = calc.add(4, 7);
+		int res = calc.add(num1, num2);
 		System.out.println(res);
 
 	}
