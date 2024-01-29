@@ -3,6 +3,7 @@ package class_25_01_ObjectsAndClass;
 public class Class_Example_1 {
 	int id;
 	String name;
+	static String comp_name = "AshokIT";
 
 	public static void main(String[] args) {
 
