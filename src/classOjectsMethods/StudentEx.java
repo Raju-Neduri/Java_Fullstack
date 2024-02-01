@@ -16,7 +16,7 @@ public class StudentEx {
 		StudentEx vaishu = new StudentEx();
 		vaishu.name = "vaishu";
 		vaishu.email = "rajneduri123@gmail.com";
-		vaishu.phone = 9989712513L;
+		vaishu.phone = 998971251L;
 
 		System.out.println(raju.name + ", " + raju.email + ", " + raju.phone + ", " + institute);
 		System.out.println(vaishu.name + ", " + vaishu.email + ", " + vaishu.phone + ", " + institute);
