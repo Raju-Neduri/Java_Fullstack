@@ -1,9 +1,19 @@
 package classOjectsMethods;
 
 public class ThisExample {
+	int a;
+
+	ThisExample(int a) {
+		this.a = a;
+	}
+
+	void show() {
+		System.out.println(a);
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ThisExample ex = new ThisExample(100);
+		ex.show();
 
 	}
 
