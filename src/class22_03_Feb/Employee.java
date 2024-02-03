@@ -1,3 +1,6 @@
+//write a program  to create a class called "Employee" with a name, job title, and salary attributes and 
+//methods to calculate and update salary without using constructors
+
 package class22_03_Feb;
 
 import java.util.Scanner;
@@ -6,7 +9,7 @@ public class Employee {
 
 	String name;
 	String jobTitle;
-	double salary;
+	static double salary;
 
 	public void acceptInformation() {
 		Scanner scanner = new Scanner(System.in);
@@ -21,35 +24,20 @@ public class Employee {
 		this.salary = scanner.nextDouble();
 	}
 
-	public void calculateSalaryIncrease(double percentage) {
-		double increaseAmount = this.salary * (percentage / 100);
-		this.salary += increaseAmount;
-		System.out.println("\nSalary increased to RS " + String.format("%.2f", this.salary));
-	}
-
-	public void updateSalary(double newSalary) {
-		this.salary = newSalary;
-		System.out.println("\nSalary updated to Rs " + String.format("%.2f", this.salary));
-	}
-
 	public void displayInformation() {
-		System.out.println("Employee Information:");
-		System.out.println("\nName: " + name);
-		System.out.println("Job Title: " + jobTitle);
-		System.out.println("Salary: Rs " + String.format("%.2f", salary));
+		System.out.println("Updated salary :" + salary);
 	}
 
 	public static void main(String[] args) {
+		Employee emp = new Employee();
+		emp.acceptInformation();
 
-		Employee emp1 = new Employee();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Increased amount of salary");
+		double increment = sc.nextDouble();
 
-		emp1.acceptInformation();
+		salary += increment;
+		emp.displayInformation();
 
-		emp1.displayInformation();
-
-		emp1.calculateSalaryIncrease(10); // 10%
-		emp1.updateSalary(50000);
-
-		emp1.displayInformation();
 	}
 }
