@@ -1,6 +1,9 @@
 package class_22_01_String2;
 
 public class Reverse_String_23_01 {
+	public void display() {
+		System.out.println("This is the String example of package");
+	}
 
 	public static void main(String[] args) {
 		String str = "Raju Neduri";
