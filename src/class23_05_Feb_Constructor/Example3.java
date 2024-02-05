@@ -4,7 +4,10 @@ public class Example3 {
 	int id;
 	String name;
 
-	Example3(int id, String name) {
+	public Example3(int id, String name) {
+		this.id = id;
+		this.name = name;
+
 		System.out.println("id-" + id + ", name-" + name);
 	}
 
