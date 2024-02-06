@@ -35,7 +35,8 @@ public class Employee {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Employee employee = new Employee(1, "John Doe", 50000, 1234567890);
+		employee.show();
 
 	}
 
