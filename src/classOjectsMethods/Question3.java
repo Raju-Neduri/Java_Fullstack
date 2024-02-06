@@ -9,10 +9,28 @@ then use the introduce method to print the updated information.
 
 package classOjectsMethods;
 
+class Person3 {
+
+	String name = "Raju";
+	int age = 24;
+
+	void have_birthday() {
+		age++;
+
+	}
+
+	public void introduce() {
+		System.out.println("Hello " + name + ", welcome! Your age is: " + age);
+	}
+
+}
+
 public class Question3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Person3 p = new Person3();
+		p.have_birthday();
+		p.introduce();
 
 	}
 
