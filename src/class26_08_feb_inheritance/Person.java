@@ -17,6 +17,11 @@ public class Person {
 	}
 
 	class Student extends Person {
+		int marks;
+
+		public void get(int marks) {
+			this.marks = marks;
+		}
 
 	}
 
