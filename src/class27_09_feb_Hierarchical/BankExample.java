@@ -1,3 +1,8 @@
+/*
+ * Hierarchical Inheritance Example
+ * 
+ */
+
 package class27_09_feb_Hierarchical;
 
 class Bank {
