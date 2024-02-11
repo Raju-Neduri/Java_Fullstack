@@ -1,3 +1,9 @@
+/*Q.2 Create a class named 'Shape' with a method to print "this is shape". 
+ * Then create two other classes named Rectangle, Circle inheriting the shape class 
+ * both are having a method to print "this is rectangle shape" and "this is circle shape" 
+ * respectively. Now call the method of 'Shape' and 'Rectangle' as well as 'Circle' class by using object.
+
+*/
 package class27_09_feb_Hierarchical;
 
 class Shape {
