@@ -28,6 +28,7 @@ public class BankExample {
 		MyBank m = new MyBank();
 		m.show();
 		m.getRateOfInterest();
+
 	}
 
 }
