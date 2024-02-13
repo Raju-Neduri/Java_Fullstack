@@ -27,6 +27,7 @@ public class BankExample {
 	public static void main(String[] args) {
 		MyBank m = new MyBank();
 		m.show();
+
 		m.getRateOfInterest();
 
 	}
