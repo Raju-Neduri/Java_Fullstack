@@ -16,19 +16,27 @@ abstract class Bank {
 
 }
 
-class MyBank extends Bank {
+class Axis extends Bank {
 	void getRateOfInterest() {
 		System.out.println("The rate of interest is 8% PA");
+	}
+}
+
+class SBI extends Bank {
+	void getRateOfInterest() {
+		System.out.println("The rate of interest is 9% PA");
 	}
 }
 
 public class BankExample {
 
 	public static void main(String[] args) {
-		MyBank m = new MyBank();
+		Axis m = new Axis();
+		SBI s = new SBI();
 		m.show();
-
 		m.getRateOfInterest();
+		s.show();
+		s.getRateOfInterest();
 
 	}
 
