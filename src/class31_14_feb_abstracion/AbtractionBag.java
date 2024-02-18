@@ -27,6 +27,8 @@ class PaperBag extends Bag {
 }
 
 public class AbtractionBag {
-	PaperBag p = new PaperBag();
-
+	public static void main(String[] args) {
+		PaperBag p = new PaperBag(5); // Provide the required argument
+		p.show(); //
+	}
 }
