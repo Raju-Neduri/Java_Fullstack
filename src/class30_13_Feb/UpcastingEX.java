@@ -1,4 +1,4 @@
-package classs30_13_Feb;
+package class30_13_Feb;
 
 class Parent {
 	public void getData() {
