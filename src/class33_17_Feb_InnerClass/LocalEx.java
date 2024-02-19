@@ -1,6 +1,6 @@
 package class33_17_Feb_InnerClass;
 
-public class State {
+public class LocalEx {
 	String name = "Telangana";
 	int population = 6000000;
 
@@ -20,12 +20,7 @@ public class State {
 	}
 
 	public static void main(String[] args) {
-		State s = new State();
-		s.show();
-		System.out.println(" ");
-
-		State.District d = s.new District();
-		d.printData();
+		// TODO Auto-generated method stub
 
 	}
 
