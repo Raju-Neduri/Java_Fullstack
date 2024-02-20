@@ -9,9 +9,14 @@ public class NullPointerException {
 
 		String s1 = " ";
 		System.out.println(s1.length());
-		String s2 = null;
-		System.out.println(s2.length());
 
+		try {
+			String s2 = null;
+			System.out.println(s2.length());
+		} catch (Exception e) {
+			System.out.println(e);
+
+		}
 	}
 
 }
