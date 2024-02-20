@@ -5,8 +5,11 @@ public class NumberFormatException {
 	public static void main(String[] args) {
 		String s = "Raju";
 		try {
-		float f = Float.parseFloat(s);
+			float f = Float.parseFloat(s);
+		} catch (Exception e) {
+			System.out.println(e);
 		}
+		System.out.println("Rest of the code");
 	}
 
 }

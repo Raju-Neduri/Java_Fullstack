@@ -17,6 +17,7 @@ public class NullPointerException {
 			System.out.println(e);
 
 		}
+		System.out.println("Rest");
 	}
 
 }
