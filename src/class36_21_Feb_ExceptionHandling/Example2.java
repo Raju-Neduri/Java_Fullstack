@@ -11,13 +11,13 @@ public class Example2 {
 			System.out.println(s.length());
 
 		} catch (Exception e) {
-			System.out.println(e);
+			System.out.println(e);// system generated
 		}
 		try {
 			System.out.println(s.length());
 
 		} catch (Exception e) {
-			System.out.println("Null pointer Exception Occured");
+			System.out.println("Null pointer Exception Occured");// message by programmer
 		}
 	}
 
