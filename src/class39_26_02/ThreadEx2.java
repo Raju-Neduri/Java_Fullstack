@@ -9,6 +9,7 @@ public class ThreadEx2 implements Runnable {
 		Runnable r = new ThreadEx2();
 		Thread t = new Thread(r, "Thread one");
 		t.start();
+		System.out.println(t.getName());
 
 	}
 
