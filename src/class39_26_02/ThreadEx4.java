@@ -14,6 +14,13 @@ public class ThreadEx4 extends Thread {
 		ThreadEx4 t2 = new ThreadEx4();
 		ThreadEx4 t3 = new ThreadEx4();
 
+		t1.setName("one");
+		t2.setName("two");
+		t3.setName("Three");
+
+		t1.setPriority(8);
+		t2.setPriority(7);
+		t3.setPriority(3);
 		t1.start();
 		t2.start();
 		t3.start();
